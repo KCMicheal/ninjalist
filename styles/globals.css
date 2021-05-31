@@ -23,6 +23,12 @@ nav {
 }
 nav a {
   margin-left: 12px;
+  border-bottom: 4px solid transparent;
+}
+nav a:hover{
+  border-bottom: 4px solid#4979ff;
+  transition: ease .8s;
+  transform: translateY(-2px)
 }
 nav .logo {
   margin-right: auto;
