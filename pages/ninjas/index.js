@@ -23,6 +23,7 @@ const Ninjas = ({ ninjas }) => {
                     <Link href={'/ninjas/' + ninja.id} key={ninja.id}>
                         <a className={styles.single}>
                             <h3>{ ninja.name }</h3>
+                            <p>Warrior</p>
                         </a>
                     </Link>
                 ))}
